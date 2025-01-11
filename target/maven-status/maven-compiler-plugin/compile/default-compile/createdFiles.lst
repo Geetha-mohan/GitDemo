@@ -1,10 +1,10 @@
 pages\AppLauncherPage.class
 runner\CucumberRunner.class
-pages\CreateNewAcctPage.class
-basepackage\ProjectSpecMethods.class
 pages\LoginPage.class
-utils\DataLibrary.class
 pages\HomePage.class
 runner\LoginRunner.class
+pages\CreateNewAcctPage.class
+basepackage\ProjectSpecMethods.class
+utils\DataLibrary.class
 runner\CreateLeadRunner.class
 pages\AccountPage.class
