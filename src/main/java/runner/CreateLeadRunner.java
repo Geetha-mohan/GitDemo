@@ -21,6 +21,8 @@ public class CreateLeadRunner extends ProjectSpecMethods {
 		LoginRunner logn = new LoginRunner(); 
 		logn.runLogin("dilip@testleaf.com", "leaf@2024");
 		hp = new  HomePage(); 
+		
+		System.out.println("changes to ddisplay in push git");
 	}
 
 	//@Test(dataProvider="ExcelData", dependsOnMethods = {"runner.LoginRunner.runLogin"}, alwaysRun = true)
@@ -29,6 +31,9 @@ public class CreateLeadRunner extends ProjectSpecMethods {
 		hp.click_on_view_all_option().click_accounts_menu_from_app_launcher().click_new_button().
 		enter_the_account_name_as(accName).enter_the_billing_address_as(billCity).
 		select_the_customer_priority_as(custPrity).click_save_button().verify_account_created_successfully();
+		
+		
+		System.out.println("create account modification made for git push");
 	}
 
 	@BeforeTest
