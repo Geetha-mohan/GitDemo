@@ -11,7 +11,7 @@ public class NewFeature extends ProjectSpecMethods {
 
 	@Test()
 	public void runNewFeature() {
-		System.out.println("new feature deleted");
+		
 		System.out.println("new feature added");
 	}
 
