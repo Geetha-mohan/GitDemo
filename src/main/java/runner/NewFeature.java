@@ -9,9 +9,9 @@ import basepackage.ProjectSpecMethods;
 public class NewFeature extends ProjectSpecMethods {
 
 
-	@Test(alwaysRun = true)
+	@Test()
 	public void runNewFeature() {
-		
+		System.out.println("new feature deleted");
 		System.out.println("new feature added");
 	}
 
