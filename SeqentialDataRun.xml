@@ -4,8 +4,9 @@
 <parameter name="browser" value="chrome"></parameter>
   <test thread-count="5" name="SeqTest">
     <classes>
-    	
+    	<class name="runner.LoginRunner"/>
         <class name="runner.CreateLeadRunner"/>
+        <class name="runner.NewFeature"/>
     </classes>
   </test> <!-- SeqTest -->
 </suite> <!-- SeqSuite -->
